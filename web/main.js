@@ -22,7 +22,7 @@ async function initMap() {
 
     try {
         // 1. 加载 tile_index.json
-        const indexUrl = "../tiles/terrain/tile_index.json";
+        const indexUrl = "../data/tiles/terrain/tile_index.json";
         const resp = await fetch(indexUrl);
         if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
         tileIndex = await resp.json();
@@ -89,7 +89,7 @@ async function initMap() {
 // ========================
 async function loadTiles(tiles, imageWidth, imageHeight) {
     const loadingEl = document.getElementById("loading");
-    const tileDir = "../tiles/terrain/";
+    const tileDir = "../data/tiles/terrain/";
 
     // 按行列分批加载，避免一次性请求过多
     const BATCH_SIZE = 20;
