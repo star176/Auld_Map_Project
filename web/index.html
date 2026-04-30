@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>奥尔德大陆 Auld Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <div id="map"></div>
+
+    <div id="info-bar">
+        <span id="coords">x: -, y: -</span>
+        <span id="zoom-level">Zoom: -</span>
+    </div>
+
+    <div id="control-panel">
+        <h3>图层控制</h3>
+        <ul id="layer-list">
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-terrain" checked disabled>
+                    <span class="layer-name">Terrain</span>
+                    <span class="layer-status">(主底图)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-political" disabled>
+                    <span class="layer-name">Political</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-land" disabled>
+                    <span class="layer-name">Land Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-ocean" disabled>
+                    <span class="layer-name">Ocean Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-mountain" disabled>
+                    <span class="layer-name">Mountain Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-forest" disabled>
+                    <span class="layer-name">Forest Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-desert" disabled>
+                    <span class="layer-name">Desert Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-river" disabled>
+                    <span class="layer-name">River Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+            <li>
+                <label>
+                    <input type="checkbox" id="layer-city" disabled>
+                    <span class="layer-name">City Mask</span>
+                    <span class="layer-status">(预留)</span>
+                </label>
+            </li>
+        </ul>
+        <p id="panel-note">当前阶段仅 Terrain 图层可用</p>
+    </div>
+
+    <div id="loading">加载地图数据中...</div>
+
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    <script src="main.js"></script>
+</body>
+</html>

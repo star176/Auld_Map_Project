@@ -1,0 +1,25 @@
+map_width_px: 1254
+map_height_px: 1254
+world_width_km: 8000
+world_height_km: 8000
+coordinate_system: pixel
+origin_x: 0
+origin_y: 0
+tile_size: 512
+overlap: 64
+min_zoom: 0
+max_zoom: 6
+terrain_source: data/input/terrain_reference.png
+political_reference: data/input/political_reference.png
+output_dir: data/output
+masks_dir: data/masks
+tiles_dir: data/tiles
+mask_layers:
+- land_mask.png
+- ocean_mask.png
+- mountain_mask.png
+- forest_mask.png
+- desert_mask.png
+- river_mask.png
+- city_mask.png
+- political_mask.png

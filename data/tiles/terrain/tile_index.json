@@ -1,0 +1,73 @@
+{
+  "source_image": "base_terrain.png",
+  "image_width": 1254,
+  "image_height": 1254,
+  "tile_size": 512,
+  "overlap": 64,
+  "tile_count": 9,
+  "tiles": [
+    {
+      "x": 0,
+      "y": 0,
+      "width": 512,
+      "height": 512,
+      "filename": "tile_0_0.png"
+    },
+    {
+      "x": 448,
+      "y": 0,
+      "width": 512,
+      "height": 512,
+      "filename": "tile_448_0.png"
+    },
+    {
+      "x": 896,
+      "y": 0,
+      "width": 358,
+      "height": 512,
+      "filename": "tile_896_0.png"
+    },
+    {
+      "x": 0,
+      "y": 448,
+      "width": 512,
+      "height": 512,
+      "filename": "tile_0_448.png"
+    },
+    {
+      "x": 448,
+      "y": 448,
+      "width": 512,
+      "height": 512,
+      "filename": "tile_448_448.png"
+    },
+    {
+      "x": 896,
+      "y": 448,
+      "width": 358,
+      "height": 512,
+      "filename": "tile_896_448.png"
+    },
+    {
+      "x": 0,
+      "y": 896,
+      "width": 512,
+      "height": 358,
+      "filename": "tile_0_896.png"
+    },
+    {
+      "x": 448,
+      "y": 896,
+      "width": 512,
+      "height": 358,
+      "filename": "tile_448_896.png"
+    },
+    {
+      "x": 896,
+      "y": 896,
+      "width": 358,
+      "height": 358,
+      "filename": "tile_896_896.png"
+    }
+  ]
+}
