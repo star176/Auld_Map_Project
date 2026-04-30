@@ -20,3 +20,8 @@ Thumbs.db
 
 # Logs
 *.log
+
+# Agent workspace
+.consolidate-state.json
+.openclaw/
+memory/
